@@ -1,2 +1,3 @@
-export const ADD_STUDENT = "ADD_CONTACT";
-export const GET_STUDENTS = "GET_CONTACTS";
+export const ADD_STUDENT = "ADD_STUDENT";
+export const GET_STUDENTS = "GET_STUDENTS";
+export const DELETE_STUDENT = "DELETE_STUDENT";

@@ -8,6 +8,10 @@ const getStudents = (students) => ({
 
 });
 
+const deleteStudent = () => ({
+    type: types.DELETE_STUDENT,
+});
+
 const addStudent = () => ({
     type: types.ADD_STUDENT,
 });
@@ -28,5 +32,12 @@ export const addStudentInitiate = (student) => {
     return function (dispatch){
         db.collection("students").doc().set(student);
         dispatch(addStudent());
+    };
+};
+
+export const deleteStudentInitiate = (id) => {
+    return function (dispatch){
+        db.collection("students").doc(id).delete();
+        dispatch(deleteStudent());
     };
 };
