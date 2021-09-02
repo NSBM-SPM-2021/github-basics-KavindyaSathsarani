@@ -27,6 +27,6 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
         cache-dependency-path: student-mng-sys/package-lock.json
-    - run: CI= npm run build
+    - run: npm install
     - run: npm run build --if-present
     - run: npm run lint
