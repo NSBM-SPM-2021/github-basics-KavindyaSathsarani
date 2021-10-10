@@ -1,13 +1,14 @@
 import firebase from "firebase/app";
 import "firebase/firestore";
 
+
 var firebaseConfig = {
-  apiKey: "AIzaSyBlFiFdCT6wevY12PAuZoZIOtxn0AYFX_4",
-  authDomain: "student-management-syste-1db54.firebaseapp.com",
-  projectId: "student-management-syste-1db54",
-  storageBucket: "student-management-syste-1db54.appspot.com",
-  messagingSenderId: "185507510618",
-  appId: "1:185507510618:web:ec66a30c343ea36d985b63"
+  apiKey: "AIzaSyD1U0s0Z6rDqL0lx67W2rOLITFjRuoH5OE",
+  authDomain: "student-mng-sys.firebaseapp.com",
+  projectId: "student-mng-sys",
+  storageBucket: "student-mng-sys.appspot.com",
+  messagingSenderId: "607398245835",
+  appId: "1:607398245835:web:eb537dea47f5d1b41cf24e"
 };
 
 
